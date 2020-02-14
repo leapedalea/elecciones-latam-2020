@@ -36,7 +36,7 @@ plugins:
   - jekyll-feed
 lsi: false
 safe: true
-source: source
+source: elecciones-latam-2020
 incremental: false
 highlighter: rouge
 gist:
