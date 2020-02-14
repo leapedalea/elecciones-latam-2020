@@ -22,8 +22,8 @@ title: Elecciones Latinioamérica 2020
 email: lea.herzog@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Listado de las elecciones de este año 2020 en el territorio latinoamericano
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/elecciones-latam-2020" # the subpath of your site, e.g. /blog
+url: "https://leapedalea.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  leapedalea
 
 collections:
@@ -36,7 +36,7 @@ plugins:
   - jekyll-feed
 lsi: false
 safe: true
-source: elecciones-latam-2020
+source: /elecciones-latam-2020
 incremental: false
 highlighter: rouge
 gist:
