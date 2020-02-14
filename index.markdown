@@ -3,6 +3,8 @@ layout: home
 ---
 <ul>
 {% for election in site.elections %}
-  <li><a href="{{ election.url }}">{{ election.country }} - {{ election.subject }}</a></li>
+  <li>{{ election.country }} - {{ election.subject }} ({{ election.election-date | date: "%d %b"}})
+    <a href="{{ election.url }}">Ver más</a>
+  </li>
 {% endfor %}
 </ul>
