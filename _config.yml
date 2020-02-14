@@ -31,12 +31,12 @@ collections:
     output: true
 
 # Build settings
-theme: jekyll-theme-architect
+theme: minima
 plugins:
   - jekyll-feed
 lsi: false
 safe: true
-source: [your repo's top level directory]
+source: source
 incremental: false
 highlighter: rouge
 gist:
